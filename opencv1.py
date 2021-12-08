@@ -23,7 +23,7 @@ resized = resize_img(img, nw)
 resized1 = resize_img(resized, nw1)
 show_img('wallpaper.png', resized)
 show_img('wallpaper_big.png', resized1)
-cropped = img[160:286, 150:26]
-show_img('wallpaper_crop.png', cropped)
+#cropped = img[200:100, 150:100]
+#show_img('wallpaper_crop.png', cropped)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
